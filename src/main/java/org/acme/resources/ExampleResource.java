@@ -1,5 +1,8 @@
-package org.acme;
+package org.acme.resources;
 
+import com.newrelic.telemetry.micrometer.NewRelicRegistry;
+
+import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
